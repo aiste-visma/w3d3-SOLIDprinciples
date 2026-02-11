@@ -1,28 +1,33 @@
-﻿namespace SOLIDprinciples.BusinessLogic
+﻿using SOLIDprinciples.Contracts;
+
+namespace SOLIDprinciples.BusinessLogic
 {
     public class OrderService
     {
-        private OrderValidation _validation = new OrderValidation();
-        private PaymentProcessing _processing = new PaymentProcessing();
-        private Notification _notification = new Notification();
-        private OrderPersistence _persistence = new OrderPersistence();
+        private IPaymentProcessor _paymentProcessor;
+        private ISaveToFile _persistOrder;
+        private ISendEmail _sendEmail;
+        private IValidateOrder _validateOrder;
+
+        public OrderService(
+            IPaymentProcessor paymentProcessor, 
+            ISaveToFile orderPersistence, 
+            ISendEmail sendEmail,
+            IValidateOrder validateOrder)
+        {
+            _paymentProcessor = paymentProcessor;
+            _persistOrder = orderPersistence;
+            _sendEmail = sendEmail;
+            _validateOrder = validateOrder;
+        }
+
         public void ProcessOrder(Order order)
         {
-            _validation.ValidateOrder(order);
-            _processing.ProccessPayment(order);
-            _notification.Notify(order);
-            _persistence.PersistOrder(order);
+            _validateOrder.ValidateOrder(order);
+            _paymentProcessor.ProcessPayment(order);
+            _persistOrder.PersistOrder(order);
+            _sendEmail.Notify(order);
         }
     }
-
-    public class Order
-    {
-        public int Id { get; set; }
-        public decimal Total { get; set; }
-        public string PaymentMethod { get; set; }
-        public string? CustomerEmail { get; set; }
-    }
-
-
 
 }

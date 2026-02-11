@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace SOLIDprinciples.BusinessLogic
 {
-    public class OrderPersistence : ISaveToFile
+    public class CreditCardPayment : IPaymentProcessor
     {
-        public void PersistOrder(Order order)
+        public void ProcessPayment(Order order)
         {
-            File.AppendAllText("orders.txt", order.Id + Environment.NewLine);
+            Console.WriteLine("Paid with credit card");
         }
     }
 }
