@@ -5,13 +5,13 @@ namespace SOLIDprinciples.BusinessLogic
     public class OrderService
     {
         private IPaymentProcessor _paymentProcessor;
-        private ISaveToFile _persistOrder;
+        private IOrderRepository _persistOrder;
         private ISendEmail _sendEmail;
         private IValidateOrder _validateOrder;
 
         public OrderService(
             IPaymentProcessor paymentProcessor, 
-            ISaveToFile orderPersistence, 
+            IOrderRepository orderPersistence, 
             ISendEmail sendEmail,
             IValidateOrder validateOrder)
         {
@@ -25,7 +25,7 @@ namespace SOLIDprinciples.BusinessLogic
         {
             _validateOrder.ValidateOrder(order);
             _paymentProcessor.ProcessPayment(order);
-            _persistOrder.PersistOrder(order);
+            _persistOrder.SaveOrder(order);
             _sendEmail.Notify(order);
         }
     }

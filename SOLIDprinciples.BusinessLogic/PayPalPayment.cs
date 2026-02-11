@@ -9,9 +9,14 @@ namespace SOLIDprinciples.BusinessLogic
 {
     public class PayPalPayment : IPaymentProcessor
     {
+        private ILogger _logger;
+        public PayPalPayment(ILogger logger) 
+        {
+            _logger = logger;
+        }
         public void ProcessPayment(Order order)
         {
-            Console.WriteLine("Paid with PayPal");
+            _logger.Log("Paid with PayPal");
         }
     }
 }

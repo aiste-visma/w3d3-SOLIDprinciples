@@ -1,0 +1,12 @@
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\bin\Debug\net8.0\SOLIDprinciples.Contracts.deps.json
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\bin\Debug\net8.0\SOLIDprinciples.Contracts.dll
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\bin\Debug\net8.0\SOLIDprinciples.Contracts.pdb
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\obj\Debug\net8.0\SOLIDprinciples.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\obj\Debug\net8.0\SOLIDprinciples.Contracts.AssemblyInfoInputs.cache
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\obj\Debug\net8.0\SOLIDprinciples.Contracts.AssemblyInfo.cs
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\obj\Debug\net8.0\SOLIDprinciples.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\obj\Debug\net8.0\SOLIDprinciples.Contracts.sourcelink.json
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\obj\Debug\net8.0\SOLIDprinciples.Contracts.dll
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\obj\Debug\net8.0\refint\SOLIDprinciples.Contracts.dll
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\obj\Debug\net8.0\SOLIDprinciples.Contracts.pdb
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples.Contracts\obj\Debug\net8.0\ref\SOLIDprinciples.Contracts.dll

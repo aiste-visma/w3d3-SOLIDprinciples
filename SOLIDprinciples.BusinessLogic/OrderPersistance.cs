@@ -7,11 +7,16 @@ using System.Threading.Tasks;
 
 namespace SOLIDprinciples.BusinessLogic
 {
-    public class OrderPersistence : ISaveToFile
+    public class OrderPersistence
     {
+        private readonly IOrderRepository _orderRepository;
+        public OrderPersistence(IOrderRepository orderRepository) 
+        {
+         _orderRepository = orderRepository;   
+        }
         public void PersistOrder(Order order)
         {
-            File.AppendAllText("orders.txt", order.Id + Environment.NewLine);
+            _orderRepository.SaveOrder(order);
         }
     }
 }

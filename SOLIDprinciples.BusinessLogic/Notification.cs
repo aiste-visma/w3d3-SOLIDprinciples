@@ -9,11 +9,16 @@ namespace SOLIDprinciples.BusinessLogic
 {
     public class Notification : ISendEmail
     {
+        private ILogger _logger;
+        public Notification(ILogger logger) 
+        {
+            _logger = logger;
+        }
         public void Notify(Order order)
         {
             if (order.CustomerEmail != null)
             {
-                Console.WriteLine($"Email sent to {order.CustomerEmail}");
+                _logger.Log($"Email sent to {order.CustomerEmail}");
             }
         }
     }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOLIDprinciples.Contracts
 {
-    public interface ISaveToFile
+    public interface IOrderRepository
     {
-        public void PersistOrder(Order order);
+        public void SaveOrder(Order order);
     }
 }

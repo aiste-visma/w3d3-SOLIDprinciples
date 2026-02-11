@@ -12,3 +12,10 @@ C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debu
 C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.pdb
 C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.genruntimeconfig.cache
 C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\ref\SOLIDprinciples.CLi.dll
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\bin\Debug\net8.0\SOLIDprinciples.BusinessLogic.dll
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\bin\Debug\net8.0\SOLIDprinciples.Contracts.dll
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\bin\Debug\net8.0\SOLIDprinciples.BusinessLogic.pdb
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\bin\Debug\net8.0\SOLIDprinciples.Contracts.pdb
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.csproj.AssemblyReference.cache
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.sourcelink.json
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDpri.12232145.Up2Date

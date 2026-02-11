@@ -7,14 +7,47 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "SOLIDprinciples.CLi/1.0.0": {
+        "dependencies": {
+          "SOLIDprinciples.BusinessLogic": "1.0.0",
+          "SOLIDprinciples.Contracts": "1.0.0"
+        },
         "runtime": {
           "SOLIDprinciples.CLi.dll": {}
+        }
+      },
+      "SOLIDprinciples.BusinessLogic/1.0.0": {
+        "dependencies": {
+          "SOLIDprinciples.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "SOLIDprinciples.BusinessLogic.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SOLIDprinciples.Contracts/1.0.0": {
+        "runtime": {
+          "SOLIDprinciples.Contracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "SOLIDprinciples.CLi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SOLIDprinciples.BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SOLIDprinciples.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

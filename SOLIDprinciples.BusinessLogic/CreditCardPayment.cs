@@ -9,9 +9,14 @@ namespace SOLIDprinciples.BusinessLogic
 {
     public class CreditCardPayment : IPaymentProcessor
     {
+        private ILogger _logger;
+        public CreditCardPayment(ILogger logger) 
+        { 
+            _logger = logger;
+        }
         public void ProcessPayment(Order order)
         {
-            Console.WriteLine("Paid with credit card");
+            _logger.Log("Paid with credit card");
         }
     }
 }

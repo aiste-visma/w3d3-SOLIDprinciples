@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOLIDprinciples.Contracts
 {
-    internal class IProcessOrder
+    public interface ILogger
     {
-
+        public void Log(string message);
     }
 }

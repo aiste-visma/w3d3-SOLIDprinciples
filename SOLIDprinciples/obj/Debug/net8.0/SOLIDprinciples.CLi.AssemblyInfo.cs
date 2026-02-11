@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOLIDprinciples.CLi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa385b60e47fe38104907867a7378714748ef139")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOLIDprinciples.CLi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOLIDprinciples.CLi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

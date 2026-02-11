@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SOLIDprinciples.BusinessLogic\SOLIDprinciples.BusinessLogic.csproj" />
+    <ProjectReference Include="..\SOLIDprinciples.Contracts\SOLIDprinciples.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>
