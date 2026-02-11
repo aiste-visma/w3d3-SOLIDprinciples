@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SOLIDprinciples.BusinessLogic/SOLIDprinciples.BusinessLogic.csproj" />
+  <Project Path="SOLIDprinciples.Contracts/SOLIDprinciples.Contracts.csproj" />
+  <Project Path="SOLIDprinciples/SOLIDprinciples.CLi.csproj" />
+</Solution>

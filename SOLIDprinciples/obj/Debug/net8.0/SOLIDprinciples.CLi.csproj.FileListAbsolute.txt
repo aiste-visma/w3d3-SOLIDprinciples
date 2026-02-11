@@ -1,0 +1,14 @@
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\bin\Debug\net8.0\SOLIDprinciples.CLi.exe
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\bin\Debug\net8.0\SOLIDprinciples.CLi.deps.json
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\bin\Debug\net8.0\SOLIDprinciples.CLi.runtimeconfig.json
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\bin\Debug\net8.0\SOLIDprinciples.CLi.dll
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\bin\Debug\net8.0\SOLIDprinciples.CLi.pdb
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.AssemblyInfoInputs.cache
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.AssemblyInfo.cs
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.csproj.CoreCompileInputs.cache
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.dll
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\refint\SOLIDprinciples.CLi.dll
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.pdb
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\SOLIDprinciples.CLi.genruntimeconfig.cache
+C:\Users\aiste.makutenaite\source\repos\SOLIDprinciples\SOLIDprinciples\obj\Debug\net8.0\ref\SOLIDprinciples.CLi.dll
