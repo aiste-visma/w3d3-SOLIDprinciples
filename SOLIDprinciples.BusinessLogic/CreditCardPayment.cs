@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace SOLIDprinciples.BusinessLogic
 {
-    public class CreditCardPayment : IPaymentProcessor
+    public class CreditCardPayment : PaymentProcessor, IPaymentStrategy
     {
         private ILogger _logger;
         public CreditCardPayment(ILogger logger) 
         { 
             _logger = logger;
         }
-        public void ProcessPayment(Order order)
+        public override void ProcessPayment(Order order)
         {
-            _logger.Log("Paid with credit card");
+            _logger.Log($"Processing {order.PaymentMethod} payment...");
         }
     }
 }

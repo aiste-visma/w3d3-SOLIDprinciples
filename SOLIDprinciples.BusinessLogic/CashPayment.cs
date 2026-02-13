@@ -29,7 +29,7 @@ namespace SOLIDprinciples.BusinessLogic
         }
         public override void ProcessPayment(Order order)
         {
-            _logger.Log("Paid with cash");
+            _logger.Log($"Processing {order.PaymentMethod} payment...");
         }
     }
 

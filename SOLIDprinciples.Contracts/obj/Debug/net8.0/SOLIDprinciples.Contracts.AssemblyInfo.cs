@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SOLIDprinciples.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa385b60e47fe38104907867a7378714748ef139")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b434806e61dd917d691ca19900dca49b116a5b7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SOLIDprinciples.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SOLIDprinciples.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

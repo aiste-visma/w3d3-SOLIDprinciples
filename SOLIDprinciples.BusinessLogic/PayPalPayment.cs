@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace SOLIDprinciples.BusinessLogic
 {
-    public class PayPalPayment : IPaymentProcessor
+    public class PayPalPayment : PaymentProcessor, IPaymentStrategy
     {
         private ILogger _logger;
         public PayPalPayment(ILogger logger) 
         {
             _logger = logger;
         }
-        public void ProcessPayment(Order order)
+        public override void ProcessPayment(Order order)
         {
-            _logger.Log("Paid with PayPal");
+            _logger.Log($"Processing {order.PaymentMethod} payment...");
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace SOLIDprinciples.Contracts
 {
-    public interface IPaymentProcessor
+    public interface IPaymentStrategy
     {
         public void ProcessPayment(Order order);
     }
