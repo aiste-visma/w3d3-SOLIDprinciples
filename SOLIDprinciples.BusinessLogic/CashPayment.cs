@@ -20,7 +20,7 @@ namespace SOLIDprinciples.BusinessLogic
 
     //Good implementation, payment is processed
 
-    public class CashPayment : PaymentProcessor
+    public class CashPayment : PaymentProcessor, IPaymentStrategy
     {
         private ILogger _logger;
         public CashPayment(ILogger logger) 

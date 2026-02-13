@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 
 namespace SOLIDprinciples.BusinessLogic
 {
-    public class Notification : ISendEmail
+    internal class AuditLogger : IOrderObserver
     {
         private ILogger _logger;
-        public Notification(ILogger logger) 
+        public AuditLogger(ILogger logger)
         {
             _logger = logger;
         }
-        public void Notify(Order order)
+        public void Update(Order order)
         {
             if (order.CustomerEmail != null)
             {
-                _logger.Log($"Email sent to {order.CustomerEmail}");
+                _logger.Log($"Logging order {order.Id}.");
             }
         }
     }

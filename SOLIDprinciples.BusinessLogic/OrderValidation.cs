@@ -14,8 +14,6 @@ namespace SOLIDprinciples.BusinessLogic
             if (order == null)
                 throw new Exception("Order is null");
 
-            if (order.Total <= 0)
-                throw new Exception("Invalid total");
         }
     }
 }

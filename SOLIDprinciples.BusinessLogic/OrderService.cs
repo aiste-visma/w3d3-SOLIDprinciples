@@ -4,34 +4,30 @@ namespace SOLIDprinciples.BusinessLogic
 {
     public class OrderService
     {
-        private readonly IPaymentStrategy _paymentProcessor;
         private readonly IOrderRepository _persistOrder;
         private readonly ILogger _logger;
-        private ISendEmail _sendEmail;
         private IValidateOrder _validateOrder;
+        private OrderEventPublisher _publisher;
 
         public OrderService(
-            IPaymentStrategy paymentProcessor, 
             IOrderRepository orderPersistence, 
             ILogger logger,
-            ISendEmail sendEmail,
-            IValidateOrder validateOrder)
+            IValidateOrder validateOrder,
+            OrderEventPublisher publisher)
         {
-            _paymentProcessor = paymentProcessor;
             _persistOrder = orderPersistence;
             _logger = logger;
-            _sendEmail = sendEmail;
             _validateOrder = validateOrder;
+            _publisher = publisher;
         }
 
-        public void ProcessOrder(Order order)
+        public void ProcessOrder(Order order, IPaymentStrategy _paymentProcessor)
         {
             _validateOrder.ValidateOrder(order);
             _paymentProcessor.ProcessPayment(order);
             _persistOrder.SaveOrder(order);
-            _sendEmail.Notify(order);
+            _publisher.Notify(order);
             _logger.Log("Order processed");
         }
     }
-
 }

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOLIDprinciples.Contracts
 {
-    public interface ISendEmail
+    public interface IPaymentStep
     {
-        public void Notify(Order order);
+        Task Handle(decimal amount, Func<Task> next);
     }
 }
